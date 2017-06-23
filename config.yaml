@@ -1,0 +1,12 @@
+contexts:
+- data:
+    output_dir: dsaas-processed
+    services_dir: dsaas-services
+    templates_dir: dsaas-templates
+  name: dsaas
+- data:
+    output_dir: keycloak-processed
+    services_dir: keycloak-services
+    templates_dir: keycloack-templates
+  name: keycloak
+current: dsaas

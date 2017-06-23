@@ -1,0 +1,5 @@
+services:
+- hash: c680ff2c1e7202e02e4590317ab11d194503ea00
+  name: status-api
+  path: /openshift/status-api.app.yaml
+  url: https://github.com/openshiftio/status-api/

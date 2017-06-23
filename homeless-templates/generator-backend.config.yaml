@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: generator-backend
+type: Opaque
+data:
+  openshift.api.url: https://openshift.local/
+  keycloak.saas.url: https://keycloak/
+  launchpad.backend.catalog.git.ref: devtools-saas
