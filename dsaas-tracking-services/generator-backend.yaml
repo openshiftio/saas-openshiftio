@@ -1,0 +1,5 @@
+services:
+- hash: master
+  name: generator-backend
+  path: /homeless-templates/generator-backend.yaml
+  url: https://github.com/openshiftio/saas/
