@@ -7,6 +7,6 @@ contexts:
 - data:
     output_dir: keycloak-processed
     services_dir: keycloak-services
-    templates_dir: keycloack-templates
+    templates_dir: keycloak-templates
   name: keycloak
 current: dsaas
