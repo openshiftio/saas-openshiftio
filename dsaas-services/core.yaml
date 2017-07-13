@@ -1,5 +1,5 @@
 services:
-- hash: 5c38e3874338ab3bac8b6bbe0e7fa0ead0d64609
+- hash: 28e6b04108dae248c07b321df44d41bf7bcbdf7d
   name: core
   path: /openshift/core.app.yaml
-  url: https://github.com/almighty/almighty-core/
+  url: https://github.com/fabric8-services/fabric8-wit/
