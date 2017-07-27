@@ -1,5 +1,5 @@
 services:
-- hash: f850b540addcadbd05d2cafe24f0ce360c8ec5bd
+- hash: 9f8497b20d2b2117ce01d7db7c0036b92598afe5
   name: fabric8-ui
   path: /openshift/fabric8-ui.app.yaml
   url: https://github.com/fabric8io/fabric8-ui/
