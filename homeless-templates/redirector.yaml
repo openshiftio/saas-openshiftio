@@ -40,9 +40,15 @@ objects:
         containers:
         - env:
           - name: REDIRECTOR_DESTINATION
-            value: https://openshift.io/
+            valueFrom:
+                configMapKeyRef:
+                  name: redirector
+                  key: redirector.destination
           - name: REDIRECTOR_TYPE
-            value: redirect
+            valueFrom:
+                configMapKeyRef:
+                  name: redirector
+                  key: redirector.type
           image: registry.centos.org/mattermost/nginx-redirector:latest
           imagePullPolicy: Always
           name: redirector
