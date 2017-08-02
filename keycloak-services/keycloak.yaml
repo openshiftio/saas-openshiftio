@@ -1,5 +1,5 @@
 services:
-- hash: ab5fc3ee45ab783afe090dc6ad2b9042f3f800fb 
+- hash: 7284d45576e1e1c76ced82a3f3afd2208aba3289 
   name: keycloak-deployment
   path: /openshift/keycloak.app.yaml
   url: https://github.com/fabric8-services/keycloak-deployment
