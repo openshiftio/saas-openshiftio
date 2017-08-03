@@ -3,3 +3,6 @@ services:
   name: keycloak-deployment
   path: /openshift/keycloak.app.yaml
   url: https://github.com/fabric8-services/keycloak-deployment
+  parameters:
+    REPLICAS: 3
+    OPERATING_MODE: clustered
