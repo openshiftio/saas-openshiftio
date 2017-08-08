@@ -5,7 +5,7 @@ metadata:
   labels:
     provider: fabric8
     project: generator-backend
-    version: 1.0.41
+    version: 1.0.60
     group: io.fabric8
   name: generator-backend
 objects:
@@ -15,20 +15,20 @@ objects:
     labels:
       provider: fabric8
       project: generator-backend
-      version: 1.0.41
+      version: 1.0.60
       group: io.fabric8
     name: generator-backend
 - apiVersion: v1
   kind: Service
   metadata:
     annotations:
-      fabric8.io/git-commit: 0188ba9241018cf3cd5cc7630d97e3201b405eb9
+      fabric8.io/git-commit: 119319212e8e62327e8be184c65c919bfacaf911
       fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
       prometheus.io/port: "9779"
       fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
       fabric8.io/issue-system: JIRA
       fabric8.io/issue-tracker-url: https://issues.jboss.org/
-      fabric8.io/git-branch: release-v1.0.41
+      fabric8.io/git-branch: release-v1.0.60
       prometheus.io/scrape: "true"
       fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
       fabric8.io/scm-tag: HEAD
@@ -36,7 +36,7 @@ objects:
       expose: "true"
       provider: fabric8
       project: generator-backend
-      version: 1.0.41
+      version: 1.0.60
       group: io.fabric8
     name: generator-backend
   spec:
@@ -53,44 +53,44 @@ objects:
   kind: DeploymentConfig
   metadata:
     annotations:
-      fabric8.io/git-commit: 0188ba9241018cf3cd5cc7630d97e3201b405eb9
-      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.41
+      fabric8.io/git-commit: 119319212e8e62327e8be184c65c919bfacaf911
+      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.60
       fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
       fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
       fabric8.io/issue-system: JIRA
       fabric8.io/issue-tracker-url: https://issues.jboss.org/
-      fabric8.io/git-branch: release-v1.0.41
+      fabric8.io/git-branch: release-v1.0.60
       fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
       fabric8.io/scm-tag: HEAD
     labels:
       provider: fabric8
       project: generator-backend
-      version: 1.0.41
+      version: 1.0.60
       group: io.fabric8
     name: generator-backend
   spec:
-    replicas: 1
+    replicas: 2
     selector:
       project: generator-backend
       provider: fabric8
-      version: 1.0.41
+      version: 1.0.60
       group: io.fabric8
     template:
       metadata:
         annotations:
-          fabric8.io/git-commit: 0188ba9241018cf3cd5cc7630d97e3201b405eb9
-          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.41
+          fabric8.io/git-commit: 119319212e8e62327e8be184c65c919bfacaf911
+          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.60
           fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
           fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
           fabric8.io/issue-system: JIRA
           fabric8.io/issue-tracker-url: https://issues.jboss.org/
-          fabric8.io/git-branch: release-v1.0.41
+          fabric8.io/git-branch: release-v1.0.60
           fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
           fabric8.io/scm-tag: HEAD
         labels:
           provider: fabric8
           project: generator-backend
-          version: 1.0.41
+          version: 1.0.60
           group: io.fabric8
       spec:
         containers:
@@ -100,12 +100,12 @@ objects:
           - name: KEYCLOAK_SAAS_URL
             value: ${KEYCLOAK_SAAS_URL}
           - name: LAUNCHPAD_BACKEND_CATALOG_GIT_REF
-            value: devtools-saas
+            value: next
           - name: KUBERNETES_NAMESPACE
             valueFrom:
               fieldRef:
                 fieldPath: metadata.namespace
-          image: fabric8/generator-backend:1.0.41
+          image: fabric8/generator-backend:1.0.60
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 10
