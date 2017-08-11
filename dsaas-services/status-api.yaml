@@ -3,3 +3,6 @@ services:
   name: status-api
   path: /openshift/status-api.app.yaml
   url: https://github.com/openshiftio/status-api/
+  environments:
+  - name: staging
+    hash_length: 7
