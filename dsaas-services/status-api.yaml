@@ -1,8 +1,6 @@
 services:
-- hash: c680ff2c1e7202e02e4590317ab11d194503ea00
+- hash: b9a42b331ea97fb22e1e94ac0d1916871cc2ba7d
   name: status-api
   path: /openshift/status-api.app.yaml
   url: https://github.com/openshiftio/status-api/
-  environments:
-  - name: staging
-    hash_length: 7
+  hash_length: 7
