@@ -3,3 +3,4 @@ services:
   name: fabric8-notification
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-notification/
+  hash_length: 6

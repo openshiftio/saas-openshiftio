@@ -3,3 +3,4 @@ services:
   name: openshift.io
   path: /openshift/www.openshift.io.app.yaml
   url: https://github.com/openshiftio/openshift.io
+  hash_length: 6

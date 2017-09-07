@@ -3,3 +3,4 @@ services:
   name: osd-monitor-poc
   path: /osd-monitor.yml
   url: https://github.com/redhat-developer/osd-monitor-poc/
+  hash_length: 6
