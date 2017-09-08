@@ -3,3 +3,4 @@ services:
   name: tenant-log-indirector
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/openshiftio/tenant-log-indirector
+  hash_length: 6
