@@ -1,5 +1,5 @@
 services:
-- hash: 23fb4a08b9a6ca5f8570c56a77b7bde3f78048cd
+- hash: 2adba70eda7d15753c0746b8e61f189d46787c3e
   name: tenant-log-indirector
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/openshiftio/tenant-log-indirector
