@@ -5,7 +5,7 @@ metadata:
   labels:
     app: generator-backend
     provider: fabric8
-    version: 1.0.75
+    version: 1.0.76
     group: io.fabric8
   name: generator-backend
 objects:
@@ -15,21 +15,21 @@ objects:
     labels:
       app: generator-backend
       provider: fabric8
-      version: 1.0.75
+      version: 1.0.76
       group: io.fabric8
     name: generator-backend
 - apiVersion: v1
   kind: Service
   metadata:
     annotations:
-      fabric8.io/git-commit: b4970357edc523fb3f832ef9c1553912e70669d4
+      fabric8.io/git-commit: 7a6f8c71ffbc96e4efa1360955d6db2fb7842b5c
       fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
       prometheus.io/port: "9779"
       fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
       fabric8.io/issue-system: JIRA
       fabric8.io/iconUrl: img/icons/wildfly.svg
       fabric8.io/issue-tracker-url: https://issues.jboss.org/
-      fabric8.io/git-branch: release-v1.0.75
+      fabric8.io/git-branch: release-v1.0.76
       prometheus.io/scrape: "true"
       fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
       fabric8.io/scm-tag: HEAD
@@ -37,7 +37,7 @@ objects:
       expose: "true"
       app: generator-backend
       provider: fabric8
-      version: 1.0.75
+      version: 1.0.76
       group: io.fabric8
     name: generator-backend
   spec:
@@ -54,20 +54,20 @@ objects:
   kind: DeploymentConfig
   metadata:
     annotations:
-      fabric8.io/git-commit: b4970357edc523fb3f832ef9c1553912e70669d4
-      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.75
+      fabric8.io/git-commit: 7a6f8c71ffbc96e4efa1360955d6db2fb7842b5c
+      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.76
       fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
       fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
       fabric8.io/issue-system: JIRA
       fabric8.io/iconUrl: img/icons/wildfly.svg
       fabric8.io/issue-tracker-url: https://issues.jboss.org/
-      fabric8.io/git-branch: release-v1.0.75
+      fabric8.io/git-branch: release-v1.0.76
       fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
       fabric8.io/scm-tag: HEAD
     labels:
       app: generator-backend
       provider: fabric8
-      version: 1.0.75
+      version: 1.0.76
       group: io.fabric8
     name: generator-backend
   spec:
@@ -83,20 +83,20 @@ objects:
     template:
       metadata:
         annotations:
-          fabric8.io/git-commit: b4970357edc523fb3f832ef9c1553912e70669d4
-          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.75
+          fabric8.io/git-commit: 7a6f8c71ffbc96e4efa1360955d6db2fb7842b5c
+          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=generator-backend&var-version=1.0.76
           fabric8.io/scm-con-url: scm:git:git://github.com/fabric8io/generator-backend.git
           fabric8.io/scm-url: http://github.com/fabric8io/generator-backend
           fabric8.io/issue-system: JIRA
           fabric8.io/iconUrl: img/icons/wildfly.svg
           fabric8.io/issue-tracker-url: https://issues.jboss.org/
-          fabric8.io/git-branch: release-v1.0.75
+          fabric8.io/git-branch: release-v1.0.76
           fabric8.io/scm-devcon-url: scm:git:git@github.com:fabric8io/generator-backend.git
           fabric8.io/scm-tag: HEAD
         labels:
           app: generator-backend
           provider: fabric8
-          version: 1.0.75
+          version: 1.0.76
           group: io.fabric8
       spec:
         containers:
@@ -111,7 +111,7 @@ objects:
             valueFrom:
               fieldRef:
                 fieldPath: metadata.namespace
-          image: fabric8/generator-backend:1.0.75
+          image: fabric8/generator-backend:1.0.76
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 10
