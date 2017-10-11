@@ -1,6 +1,6 @@
 services:
 - hash: null
   name: fabric8-jenkins-idler
-  path: /openshift/jenkins-controller.app.yaml
+  path: /openshift/jenkins-idler.app.yaml
   url: https://github.com/fabric8-services/fabric8-jenkins-idler/
   hash_length: 6  
