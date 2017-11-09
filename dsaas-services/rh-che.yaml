@@ -1,7 +1,7 @@
 services:
 - hash: f593959cca1a67608f5ee136324e00e50705b29c
   hash_length: 7
-  name: che
+  name: rh-che
   parameters:
     IMAGE: registry.devshift.net/che/che-multiuser
   path: /openshift/rh-che.app.yaml
