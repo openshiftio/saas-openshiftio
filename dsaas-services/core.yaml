@@ -1,5 +1,5 @@
 services:
-- hash: 35677fe131d5c2b679b895fd3bf34af7236cf600
+- hash: 32767ddfe68a53fd73c297a8581cbb12c0b11cf6
   name: fabric8-wit
   path: /openshift/core.app.yaml
   url: https://github.com/fabric8-services/fabric8-wit/
