@@ -1,5 +1,5 @@
 services:
-- hash: e98fa7ab86fea5aa185eeb203829476165daa5bc
+- hash: 6d92c2682f876ca5be886f6e810cfed4488b3e1b
   name: fabric8-notification
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-notification/
