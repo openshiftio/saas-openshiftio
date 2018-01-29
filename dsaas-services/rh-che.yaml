@@ -1,5 +1,5 @@
 services:
-- hash: 7b461f98469394570883936056338257ac28b36c
+- hash: bb8dee7ccecd26485bf87551da409d3abbd19563
   hash_length: 7
   name: rh-che
   parameters:
