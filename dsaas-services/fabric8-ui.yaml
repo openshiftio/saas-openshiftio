@@ -7,9 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      proxy.pass.url: https://api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
-      ws.k8s.api.server: api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
+      ws.k8s.api.server: f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
   - name: staging
     parameters:
-      proxy.pass.url: https://api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
-      ws.k8s.api.server: api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
+      ws.k8s.api.server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
