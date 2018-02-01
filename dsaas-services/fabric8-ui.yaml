@@ -9,6 +9,8 @@ services:
     skip: True
     parameters:
       ws.k8s.api.server: f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com
+      k8s.api.server.base.path: /_p/oso
   - name: staging
     parameters:
       ws.k8s.api.server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
+      k8s.api.server.base.path: ''
