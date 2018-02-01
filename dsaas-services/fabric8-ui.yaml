@@ -11,6 +11,3 @@ services:
   - name: staging
     parameters:
       k8s.api.server: https://f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
-  - name: prod-preview
-    parameters:
-      k8s.api.server: https://f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
