@@ -6,8 +6,9 @@ services:
   hash_length: 6
   environments:
   - name: production
+    skip: True
     parameters:
-      ws.k8s.api.server: f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
+      ws.k8s.api.server: f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com
   - name: staging
     parameters:
-      ws.k8s.api.server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
+      ws.k8s.api.server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
