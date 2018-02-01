@@ -7,23 +7,9 @@ services:
   environments:
   - name: production
     parameters:
-      k8s.api.server.base.path: /_p/oso
-      k8s.api.server.protocol: https
-      oauth.authorize.uri: https://api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443/oauth/authorize
-      oauth.client.id: fabric8
-      oauth.issuer: https://api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com.com:443
-      oauth.logout.uri: https://api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443/connect/endsession?id_token={{id_token}}
-      openshift.console.url: https://console.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com/console/
       proxy.pass.url: https://api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
       ws.k8s.api.server: api.f8osoproxy-test-dsaas-production.09b5.dsaas.openshiftapps.com:443
   - name: staging
     parameters:
-      k8s.api.server.base.path: /_p/oso
-      k8s.api.server.protocol: https
-      oauth.authorize.uri: https://api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443/oauth/authorize
-      oauth.client.id: fabric8
-      oauth.issuer: https://api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com.com:443
-      oauth.logout.uri: https://api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443/connect/endsession?id_token={{id_token}}
-      openshift.console.url: https://console.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com/console/
       proxy.pass.url: https://api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
       ws.k8s.api.server: api.f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com:443
