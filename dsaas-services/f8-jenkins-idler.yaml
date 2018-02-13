@@ -4,7 +4,7 @@ services:
   name: fabric8-jenkins-idler
   path: /openshift/jenkins-idler.app.yaml
   url: https://github.com/fabric8-services/fabric8-jenkins-idler/
-- hash: 7d6e4dd2a9585d788f0efd38fbf052fb09ec5594
+- hash: 4bc040206ac57ae888dd11b0e77ba6d05506af1a
   hash_length: 6
   name: fabric8-jenkins-proxy
   path: /openshift/jenkins-proxy.app.yaml
