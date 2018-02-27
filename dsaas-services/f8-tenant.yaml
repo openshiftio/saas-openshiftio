@@ -1,5 +1,5 @@
 services:
-- hash: c231dcabfacba5ad7662ee0174d5ec1e640f14b4
+- hash: fc64f20afd09cee090eaff789902771bf744a214
   name: fabric8-tenant
   path: /OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-tenant/
