@@ -6,3 +6,10 @@ services:
     IMAGE: registry.devshift.net/che/che-multiuser
   path: /openshift/rh-che.app.yaml
   url: https://github.com/redhat-developer/rh-che
+- hash: a0f42fdb6bf28bdea3b3a0068a0c33608e1a844f
+  hash_length: 7
+  name: rh-che6
+  parameters:
+    IMAGE: registry.devshift.net/che/rh-che-server
+  path: /openshift/rh-che.app.yaml
+  url: https://github.com/redhat-developer/rh-che
