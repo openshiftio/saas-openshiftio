@@ -1,0 +1,8 @@
+services:
+- hash:
+  hash_length: 7
+  name: tenant-che-maintenance
+  parameters:
+    IMAGE: registry.devshift.net/fabric8-services/fabric8-tenant-che-migration
+  path: /openshift/fabric8-tenant-che-maintenance.app.yml
+  url: https://github.com/fabric8-services/fabric8-tenant-che-migration
