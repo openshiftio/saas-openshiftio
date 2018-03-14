@@ -1,5 +1,5 @@
 services:
-- hash: bfaeb78dc9bb87fddd86e6cf57ad4b1cdab40039
+- hash: f158075cf3fe195830cb7d9f6d3e07ea65f9b756
   hash_length: 7
   name: che-tenant-maintainer
   parameters:
