@@ -1,5 +1,5 @@
 services:
-- hash: fae8e0de3f60a4cf68076c906e20d847a2c55123
+- hash: bd57e9bd701df55e43a73d08a44bafafce8ec257
   name: fabric8-toggles-service
   path: /openshift/app.yml
   url: https://github.com/fabric8-services/fabric8-toggles-service/
