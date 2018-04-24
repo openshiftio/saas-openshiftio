@@ -2,7 +2,12 @@ services:
 - hash: 10f733e682e75b0a3fdfb89b0b77266330f1878d
   hash_length: 7
   name: che-tenant-maintainer
-  parameters:
-    IMAGE: registry.devshift.net/fabric8-services/fabric8-tenant-che-migration
   path: /openshift/che-tenant-maintainer.app.yml
   url: https://github.com/fabric8-services/che-tenant-maintainer
+  environments:
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-tenant-che-migration
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8-services/fabric8-tenant-che-migration
