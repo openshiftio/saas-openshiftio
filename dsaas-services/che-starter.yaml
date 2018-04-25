@@ -2,7 +2,12 @@ services:
 - hash: d97d1dc2514051ad74a47c13dc5b04b335d273ae
   hash_length: 7
   name: che-starter
-  parameters:
-    IMAGE: registry.devshift.net/almighty/che-starter
   path: /openshift-template/che-starter.app.yaml
   url: https://github.com/redhat-developer/che-starter
+  environments:
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/almighty/che-starter
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/almighty/che-starter
