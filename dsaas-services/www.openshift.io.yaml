@@ -4,3 +4,10 @@ services:
   path: /openshift/www.openshift.io.app.yaml
   url: https://github.com/openshiftio/openshift.io
   hash_length: 6
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8io/wwwopenshiftio
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/wwwopenshiftio
