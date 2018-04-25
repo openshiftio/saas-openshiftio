@@ -19,3 +19,4 @@ services:
     parameters:
       REPLICAS: 3
       OPERATING_MODE: clustered
+
