@@ -4,8 +4,22 @@ services:
   name: fabric8-jenkins-idler
   path: /openshift/jenkins-idler.app.yaml
   url: https://github.com/fabric8-services/fabric8-jenkins-idler/
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8-services/fabric8-jenkins-idler
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
 - hash: 187decc0222969e8c07461d021ba66b9037460e3
   hash_length: 6
   name: fabric8-jenkins-proxy
   path: /openshift/jenkins-proxy.app.yaml
   url: https://github.com/fabric8-services/fabric8-jenkins-proxy/
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8-services/fabric8-jenkins-proxy
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
