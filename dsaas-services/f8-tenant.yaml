@@ -4,3 +4,10 @@ services:
   path: /OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-tenant/
   hash_length: 6
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8-services/fabric8-tenant
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-tenant

@@ -3,3 +3,10 @@ services:
   name: fabric8-admin-proxy
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-admin-proxy/
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8-services/fabric8-admin-proxy
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-admin-proxy
