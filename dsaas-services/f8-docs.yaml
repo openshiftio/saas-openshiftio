@@ -1,5 +1,5 @@
 services:
-- hash: 963461ec95d0c5c4d8496faf40bcfc08eceebada
+- hash: 08bddfce37929efbfe698f8ea73b8fc47e15943a
   name: fabric8-online-docs
   path: /openshift/fabric8-online-docs.app.yaml
   url: https://github.com/fabric8io/fabric8-online-docs
@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: registry.devshift.net/fabric8io/fabric8-online-docs
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/fabric8-online-docs
   - name: staging
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/fabric8-online-docs
