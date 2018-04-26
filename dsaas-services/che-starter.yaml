@@ -1,5 +1,5 @@
 services:
-- hash: d97d1dc2514051ad74a47c13dc5b04b335d273ae
+- hash: f0ff7725dff49aaf28b8625ba18e258ac783c204
   hash_length: 7
   name: che-starter
   path: /openshift-template/che-starter.app.yaml
