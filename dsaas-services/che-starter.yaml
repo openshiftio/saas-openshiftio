@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/almighty/che-starter
   - name: production
     parameters:
-      IMAGE: registry.devshift.net/almighty/che-starter
+      IMAGE: prod.registry.devshift.net/osio-prod/almighty/che-starter
