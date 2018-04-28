@@ -16,4 +16,4 @@ services:
       ws_k8s_api_server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
       k8s_api_server_base_path: '/'
       fabric8_feature_toggles_api_url: https://api.prod-preview.openshift.io/api/
-      #IMAGE: prod.registry.devshift.net/osio-prod/fabric8-ui/fabric8-ui
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-ui/fabric8-ui
