@@ -9,7 +9,7 @@ services:
     parameters:
       REPLICAS: 3
       OPERATING_MODE: clustered
-      IMAGE: registry.devshift.net/fabric8-services/keycloak-postgres
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/keycloak-postgres
   - name: staging
     parameters:
       REPLICAS: 3
