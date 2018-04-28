@@ -12,4 +12,4 @@ services:
   - name: production
     parameters:
       REPLICAS: 4
-      IMAGE: registry.devshift.net/fabric8-services/fabric8-wit
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-wit
