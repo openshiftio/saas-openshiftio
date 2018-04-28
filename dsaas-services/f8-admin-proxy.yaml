@@ -1,5 +1,5 @@
 services:
-- hash: 4ea285cd5e5b50080ba07298f5cefa4e7bc27223
+- hash: 8fd02627f1f94f961ef5ad9489a4a2b10e83db35
   name: fabric8-admin-proxy
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-admin-proxy/
