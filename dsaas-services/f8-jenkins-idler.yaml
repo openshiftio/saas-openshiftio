@@ -19,7 +19,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: registry.devshift.net/fabric8-services/fabric8-jenkins-proxy
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
   - name: staging
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
