@@ -1,5 +1,5 @@
 services:
-- hash: b9a42b331ea97fb22e1e94ac0d1916871cc2ba7d
+- hash: 4a18cf54435b851a2bdba045214e023943bb924e
   name: status-api
   path: /openshift/status-api.app.yaml
   url: https://github.com/openshiftio/status-api/
@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/openshiftio/zabbix-status-api
   - name: production
     parameters:
-      IMAGE: registry.devshift.net/openshiftio/zabbix-status-api
+      IMAGE: prod.registry.devshift.net/osio-prod/openshiftio/zabbix-status-api
