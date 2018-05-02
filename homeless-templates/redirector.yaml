@@ -49,7 +49,7 @@ objects:
                 configMapKeyRef:
                   name: redirector
                   key: redirector.type
-          image: registry.centos.org/mattermost/nginx-redirector:latest
+          image: prod.registry.devshift.net/osio-prod/base/nginx-redirector:latest
           imagePullPolicy: Always
           name: redirector
           ports:
