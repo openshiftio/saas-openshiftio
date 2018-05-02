@@ -11,7 +11,7 @@ services:
   - name: staging
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
-- hash: 187decc0222969e8c07461d021ba66b9037460e3
+- hash: be4b002ba3b96aa3a2a9bf8c8ca1e0df462ba0ec
   hash_length: 6
   name: fabric8-jenkins-proxy
   path: /openshift/jenkins-proxy.app.yaml
