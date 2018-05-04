@@ -1,8 +1,0 @@
-services:
-- hash: bb8dee7ccecd26485bf87551da409d3abbd19563
-  hash_length: 7
-  name: rh-che
-  parameters:
-    IMAGE: registry.devshift.net/che/che-multiuser
-  path: /openshift/rh-che.app.yaml
-  url: https://github.com/redhat-developer/rh-che
