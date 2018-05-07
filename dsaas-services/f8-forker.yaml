@@ -1,6 +1,0 @@
-services:
-- hash: master
-  name: fabric8-forker
-  path: /openshift/fabric8-forker.app.yaml
-  url: https://github.com/fabric8io/fabric8-forker
-  hash_length: 6
