@@ -49,7 +49,7 @@ objects:
                 configMapKeyRef:
                   name: redirector
                   key: redirector.type
-          image: prod.registry.devshift.net/osio-prod/base/nginx-redirector:latest
+          image: prod.registry.devshift.net/osio-prod/base/nginx-redirector:${IMAGE_TAG}
           imagePullPolicy: Always
           name: redirector
           ports:
@@ -81,3 +81,6 @@ objects:
     type: ClusterIP
   status:
     loadBalancer: {}
+parameters:
+- name: IMAGE_TAG
+  value: "latest"
