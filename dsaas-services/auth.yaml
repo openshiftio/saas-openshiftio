@@ -12,3 +12,4 @@ services:
   - name: production
     parameters:
       REPLICAS: 4
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-auth
