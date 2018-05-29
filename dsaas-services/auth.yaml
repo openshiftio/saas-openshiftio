@@ -8,6 +8,7 @@ services:
   - name: staging
     parameters:
       REPLICAS: 2
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-auth
   - name: production
     parameters:
       REPLICAS: 4
