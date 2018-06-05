@@ -1,5 +1,5 @@
 services:
-- hash: 8f6339c51fefb196ba967270dd76476ff51e889b
+- hash: ba98175e48b3d0c3952f28c2d518c07e5f5711ac
   name: fabric8-online-docs
   path: /openshift/fabric8-online-docs.app.yaml
   url: https://github.com/fabric8io/fabric8-online-docs
