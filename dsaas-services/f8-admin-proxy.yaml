@@ -9,4 +9,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-admin-proxy
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-admin-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-admin-proxy
