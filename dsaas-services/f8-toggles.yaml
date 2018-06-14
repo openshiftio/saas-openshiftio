@@ -9,4 +9,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-toggles
