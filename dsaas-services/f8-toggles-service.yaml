@@ -7,8 +7,7 @@ services:
   environments:
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles-service
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-toggles-service
   - name: production
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles-service
-
