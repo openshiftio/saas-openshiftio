@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-tenant
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-tenant
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-tenant
