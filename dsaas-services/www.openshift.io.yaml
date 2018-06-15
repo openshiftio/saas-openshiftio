@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/wwwopenshiftio
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/wwwopenshiftio
+      IMAGE: quay.io/openshiftio/rhel-fabric8io-wwwopenshiftio

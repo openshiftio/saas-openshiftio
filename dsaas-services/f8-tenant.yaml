@@ -1,5 +1,5 @@
 services:
-- hash: 0d421040973ab8a76e7a9ed54f2770b0aac96ab0
+- hash: afa18b85f642202308c6d1ed6f56f1da5144dcc5
   name: fabric8-tenant
   path: /OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-tenant/
@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-tenant
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-tenant
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-tenant

@@ -8,7 +8,7 @@ services:
   - name: staging
     parameters:
       REPLICAS: 2
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-wit
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-wit
   - name: production
     parameters:
       REPLICAS: 4
