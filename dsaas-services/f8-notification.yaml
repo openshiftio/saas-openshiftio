@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-notification
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-notification
+      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-notification
