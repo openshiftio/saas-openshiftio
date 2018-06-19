@@ -1,12 +1,12 @@
 services:
-- hash: 8fd02627f1f94f961ef5ad9489a4a2b10e83db35
+- hash: 612c68db001754e8778f35080895cf1f1811ddf2
   name: fabric8-admin-proxy
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-admin-proxy/
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-admin-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-admin-proxy
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-admin-proxy
