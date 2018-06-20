@@ -1,3 +1,5 @@
+### NOTE: this is the fabric8-oso-proxy
+### for jenkins-proxy see: dsaas-services/f8-jenkins-idler.yaml
 services:
 - hash: 90e72b8a1590eee8cda0499116121224dbc34b69
   name: fabric8-oso-proxy

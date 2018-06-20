@@ -1,4 +1,5 @@
 services:
+### idler ###
 - hash: e501e24a559a261eb48afd3aab48364dd3690a33
   hash_length: 6
   name: fabric8-jenkins-idler
@@ -11,6 +12,8 @@ services:
   - name: staging
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
+
+### proxy ###
 - hash: 6e9fcefc0451bccbfeaa07b825d309b9dc9eb495
   hash_length: 6
   name: fabric8-jenkins-proxy
