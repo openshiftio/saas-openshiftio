@@ -18,4 +18,4 @@ services:
       k8s_api_server_base_path: '/'
       fabric8_feature_toggles_api_url: https://api.prod-preview.openshift.io/api/
       fabric8_jenkins_api_url: https://jenkins.api.prod-preview.openshift.io
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-ui/fabric8-ui
+      IMAGE: quay.io/openshiftio/rhel-fabric8-ui-fabric8-ui
