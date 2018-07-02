@@ -1,5 +1,5 @@
 services:
-- hash: ad935e8bf3b135c03b95a4d745242953a4be6f9c
+- hash: 4cd2a134b4728c868b340f91810fb143c077fb19
   name: openshift.io
   path: /openshift/www.openshift.io.app.yaml
   url: https://github.com/openshiftio/openshift.io
@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/wwwopenshiftio
+      IMAGE: quay.io/openshiftio/rhel-fabric8io-wwwopenshiftio
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8io-wwwopenshiftio
