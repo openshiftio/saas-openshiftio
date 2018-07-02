@@ -1,5 +1,5 @@
 services:
-- hash: 348e638e1f7b90dadabdab853649ab63fac97d32
+- hash: e471357cb814641a43cfda7e6c52a901a2af6e00
   name: fabric8-wit
   path: /openshift/core.app.yaml
   url: https://github.com/fabric8-services/fabric8-wit/
@@ -8,8 +8,8 @@ services:
   - name: staging
     parameters:
       REPLICAS: 2
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-wit
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-wit
   - name: production
     parameters:
       REPLICAS: 4
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-wit
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-wit

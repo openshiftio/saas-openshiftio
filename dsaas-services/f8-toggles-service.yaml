@@ -1,5 +1,5 @@
 services:
-- hash: 1f6adf2e6285a83cbe6943313f701672cd09c6da
+- hash: 67158d5d126d3ab7f4cfaeafd3b44aa9c01a454c
   name: fabric8-toggles-service
   path: /openshift/app.yml
   url: https://github.com/fabric8-services/fabric8-toggles-service/
@@ -7,8 +7,7 @@ services:
   environments:
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles-service
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-toggles-service
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-toggles-service
-
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-toggles-service
