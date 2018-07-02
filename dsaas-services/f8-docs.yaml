@@ -10,4 +10,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/fabric8-online-docs
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8io/fabric8-online-docs
+      IMAGE: quay.io/openshiftio/rhel-fabric8io-fabric8-online-docs
