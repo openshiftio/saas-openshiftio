@@ -1,12 +1,12 @@
 services:
-- hash: cdf53026fdd22d49699e320d924a2b39bb232413
+- hash: ced19c8a120585e756b1da9c7686149aba7e665a
   name: fabric8-oso-proxy
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-oso-proxy/
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-oso-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-oso-proxy
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-oso-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-oso-proxy
