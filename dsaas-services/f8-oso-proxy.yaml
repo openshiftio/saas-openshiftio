@@ -6,7 +6,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-oso-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services/fabric8-oso-proxy
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-oso-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-oso-proxy
