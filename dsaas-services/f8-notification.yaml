@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-notification
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-notification
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-notification
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-notification
