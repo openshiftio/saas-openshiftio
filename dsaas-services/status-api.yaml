@@ -7,7 +7,7 @@ services:
   environments:
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/openshiftio/zabbix-status-api
+      IMAGE: quay.io/openshiftio/rhel-openshiftio-zabbix-status-api
   - name: production
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/openshiftio/zabbix-status-api
