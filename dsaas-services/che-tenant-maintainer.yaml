@@ -1,5 +1,5 @@
 services:
-- hash: 9e9317b32870e2aba5b8bcb58275a561ec92f52c
+- hash: c4da54364cb4fe0e8add6064f0f462a126d35ba1
   hash_length: 7
   name: che-tenant-maintainer
   path: /openshift/che-tenant-maintainer.app.yml
