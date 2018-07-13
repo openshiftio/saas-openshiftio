@@ -1,5 +1,5 @@
 services:
-- hash: 355e74f8077ace2f1f7c28c2661293f0e5f32a82
+- hash: 70de15befd33c934ed74e47e2a33902a2a614648
   hash_length: 7
   name: che-starter
   path: /openshift-template/che-starter.app.yaml
@@ -10,4 +10,4 @@ services:
       IMAGE: quay.io/openshiftio/rhel-almighty-che-starter
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/almighty/che-starter
+      IMAGE: quay.io/openshiftio/rhel-almighty-che-starter
