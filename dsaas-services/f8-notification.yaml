@@ -1,5 +1,5 @@
 services:
-- hash: 1f6a6d49fa72d28489bb0493232c7c09d1f9dc39
+- hash: 9136d2fb30086be3d0b30e2ba93e6d0722e76689
   name: fabric8-notification
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-notification/
@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-notification
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-notification
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-services-fabric8-notification
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-notification
