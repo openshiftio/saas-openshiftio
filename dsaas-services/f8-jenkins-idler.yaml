@@ -10,7 +10,7 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-idler
 - hash: 6e9fcefc0451bccbfeaa07b825d309b9dc9eb495
   hash_length: 6
   name: fabric8-jenkins-proxy
@@ -22,4 +22,4 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-proxy
