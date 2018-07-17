@@ -1,10 +1,14 @@
 services:
-- hash: ee1ae47ff66774c32fd7a77174c5fef3598fc2bc
+- hash: ef5c8a670bf967dfd3cbf37afdce76e4a8c85c9e
   name: tenant-log-indirector
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/openshiftio/tenant-log-indirector
   hash_length: 6
   environments:
+  - name: production
+    parameters:
+      IMAGE quay.io/openshiftio/openshiftio-tenant-log-indirector
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/openshiftio-tenant-log-indirector
+      IMAGE quay.io/openshiftio/openshiftio-tenant-log-indirector
+
