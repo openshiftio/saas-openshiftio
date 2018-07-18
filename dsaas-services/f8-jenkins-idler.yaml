@@ -1,5 +1,5 @@
 services:
-- hash: e501e24a559a261eb48afd3aab48364dd3690a33
+- hash: de2fc544b53e87003a7e81b6968961ab26eac55c
   hash_length: 6
   name: fabric8-jenkins-idler
   path: /openshift/jenkins-idler.app.yaml
@@ -7,11 +7,11 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-idler
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-idler
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-idler
-- hash: 6e9fcefc0451bccbfeaa07b825d309b9dc9eb495
+- hash: a6e9c5c1f9ba7cd6417f9e020cddf49644e16d67
   hash_length: 6
   name: fabric8-jenkins-proxy
   path: /openshift/jenkins-proxy.app.yaml
@@ -19,7 +19,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/fabric8-jenkins-proxy
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-proxy
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-proxy
