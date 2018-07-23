@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rhche-redirector
+data:
+  redirector.destination: "https://che.openshift.io"
+  redirector.type: permanent
