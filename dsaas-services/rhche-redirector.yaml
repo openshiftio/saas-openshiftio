@@ -1,0 +1,6 @@
+services:
+- hash: master
+  name: rhche-redirector
+  path: homeless-templates/rhche-redirector.yaml
+  url: https://github.com/openshiftio/saas-openshiftio/
+  hash_length: 6
