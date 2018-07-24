@@ -1,5 +1,5 @@
 services:
-- hash: 9d3c6cc3732731853e91936527daca7cd1e69f06
+- hash: 62f059e2b81bb3df4c2cc5f1ebdc5db1f82f6563
   name: osd-monitor-poc
   path: /osd-monitor.yml
   url: https://github.com/redhat-developer/osd-monitor-poc/
@@ -15,4 +15,12 @@ services:
       IMAGE_OSO_CENTRAL_WEBAPI_GUARD: quay.io/openshiftio/rhel-perf-oso-central-webapi-guard
       IMAGE_PCP_CENTRAL_WEBAPI: quay.io/openshiftio/rhel-perf-pcp-central-webapi
   - name: production
-    hash_length: 6
+    parameters:
+      IMAGE_PCP_CENTRAL_LOGGER: quay.io/openshiftio/rhel-perf-pcp-central-logger
+      IMAGE_PCP_CENTRAL_WEBAPI: quay.io/openshiftio/rhel-perf-pcp-central-webapi
+      IMAGE_PCP_WEBAPI_GUARD: quay.io/openshiftio/rhel-perf-pcp-webapi-guard
+      IMAGE_PCP_POSTGRESQL: quay.io/openshiftio/rhel-perf-pcp-postgresql-monitor
+      IMAGE_OSO_CENTRAL_LOGGER: quay.io/openshiftio/rhel-perf-oso-central-logger
+      IMAGE_OSO_CENTRAL_WEBAPI_GUARD: quay.io/openshiftio/rhel-perf-oso-central-webapi-guard
+      IMAGE_PCP_CENTRAL_WEBAPI: quay.io/openshiftio/rhel-perf-pcp-central-webapi
+
