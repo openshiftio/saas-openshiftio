@@ -1,5 +1,5 @@
 services:
-- hash: 7d88e4900d0452eec817bdb008368ae64c7a7b25
+- hash: 3d3e71dadddcc264c97e7149190d3c10a44d50ef
   hash_length: 7
   name: rh-che6
   path: /openshift/rh-che.app.yaml
@@ -10,4 +10,4 @@ services:
       IMAGE: quay.io/openshiftio/rhel-che-rh-che-server
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/che/rh-che-server
+      IMAGE: quay.io/openshiftio/rhel-che-rh-che-server
