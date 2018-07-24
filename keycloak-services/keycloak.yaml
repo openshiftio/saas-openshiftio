@@ -6,11 +6,10 @@ services:
   hash_length: 7
   environments:
   - name: production
-    hash_length: 6
     parameters:
       REPLICAS: 3
       OPERATING_MODE: clustered
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8-services/keycloak-postgres
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-keycloak-postgres
   - name: staging
     parameters:
       REPLICAS: 3
