@@ -13,7 +13,7 @@ objects:
       run: rhche-redirector
     name: rhche-redirector
   spec:
-    replicas: 1
+    replicas: ${REPLICAS}
     selector:
       run: rhche-redirector
     strategy:
@@ -86,3 +86,5 @@ parameters:
   value: quay.io/openshiftio/rhel-base-nginx-redirector
 - name: IMAGE_TAG
   value: "latest"
+- name: REPLICAS
+  value: 1
