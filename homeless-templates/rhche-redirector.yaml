@@ -49,7 +49,7 @@ objects:
                 configMapKeyRef:
                   name: rhche-redirector
                   key: redirector.type
-          image: image: ${IMAGE}:${IMAGE_TAG}
+          image: ${IMAGE}:${IMAGE_TAG}
           imagePullPolicy: Always
           name: redirector
           ports:
