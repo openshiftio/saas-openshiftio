@@ -83,8 +83,8 @@ objects:
     loadBalancer: {}
 parameters:
 - name: IMAGE
-  value: quay.io/openshiftio/rhel-base-nginx-redirector
+  value: "quay.io/openshiftio/rhel-base-nginx-redirector"
 - name: IMAGE_TAG
   value: "latest"
 - name: REPLICAS
-  value: 1
+  value: "1"
