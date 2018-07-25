@@ -41,14 +41,14 @@ objects:
         - env:
           - name: REDIRECTOR_DESTINATION
             valueFrom:
-                configMapKeyRef:
-                  name: rhche-redirector
-                  key: redirector.destination
+              configMapKeyRef:
+                name: rhche-redirector
+                key: redirector.destination
           - name: REDIRECTOR_TYPE
             valueFrom:
-                configMapKeyRef:
-                  name: rhche-redirector
-                  key: redirector.type
+              configMapKeyRef:
+                name: rhche-redirector
+                key: redirector.type
           image: ${IMAGE}:${IMAGE_TAG}
           imagePullPolicy: Always
           name: redirector
