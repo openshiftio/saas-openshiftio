@@ -13,7 +13,7 @@ objects:
       run: rhche-redirector
     name: rhche-redirector
   spec:
-    replicas: ${REPLICAS}
+    replicas: ${{REPLICAS}}
     selector:
       run: rhche-redirector
     strategy:
