@@ -7,8 +7,8 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: quay.io/openshiftio/openshiftio-tenant-log-indirector
+      IMAGE: quay.io/openshiftio/rhel-openshiftio-tenant-log-indirector
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/openshiftio-tenant-log-indirector
+      IMAGE: quay.io/openshiftio/rhel-openshiftio-tenant-log-indirector
 
