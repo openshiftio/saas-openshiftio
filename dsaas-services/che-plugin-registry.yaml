@@ -1,0 +1,13 @@
+services:
+- hash: 62de8133ecc8288b68387808d26ccfc915ebd959
+  hash_length: 7
+  name: che-plugin-registry
+  path: /openshift/che-plugin-registry.yml
+  url: https://github.com/eclipse/che-plugin-registry
+  environments:
+  - name: staging
+    parameters:
+      IMAGE: quay.io/openshiftio/rhel-che-plugin-registry
+  - name: production
+    parameters:
+      IMAGE: quay.io/openshiftio/rhel-che-plugin-registry
