@@ -2,7 +2,7 @@ services:
 - hash: fa5ad2196e63f13c927d9321436840022083067d
   name: fabric8-cluster
   path: /openshift/f8cluster.app.yaml
-  url: https://github.com/fabric8-services/fabric8-auth/
+  url: https://github.com/fabric8-services/fabric8-cluster/
   hash_length: 6
   environments:
   - name: staging
