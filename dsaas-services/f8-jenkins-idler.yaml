@@ -11,7 +11,7 @@ services:
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-idler
-- hash: 99399c90d426140e31f442ab1c34eb77cc58471c
+- hash: 47eb3e77936aef48428968d7781a6b8d95a2738a
   hash_length: 6
   name: fabric8-jenkins-proxy
   path: /openshift/jenkins-proxy.app.yaml
