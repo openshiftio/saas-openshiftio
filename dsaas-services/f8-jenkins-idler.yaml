@@ -11,6 +11,8 @@ services:
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-jenkins-idler
+
+# just testing if e2e fails without any change
 - hash: 99399c90d426140e31f442ab1c34eb77cc58471c
   hash_length: 6
   name: fabric8-jenkins-proxy
