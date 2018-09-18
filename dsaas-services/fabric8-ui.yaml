@@ -1,5 +1,5 @@
 services:
-- hash: 656d47a544a7ec56dbaa34ea769cb0f44c7f7021
+- hash: fc37a478011d5190a42656ef0b01059e70336924
   name: fabric8-ui
   path: /openshift/fabric8-ui.app.yaml
   url: https://github.com/fabric8-ui/fabric8-ui/
@@ -14,7 +14,7 @@ services:
       IMAGE: quay.io/openshiftio/rhel-fabric8-ui-fabric8-ui
   - name: staging
     parameters:
-      ws_k8s_api_server: f8osoproxy-test-dsaas-preview.b6ff.rh-idev.openshiftapps.com
+      ws_k8s_api_server: osoproxy.prod-preview.openshift.io
       k8s_api_server_base_path: '/'
       fabric8_feature_toggles_api_url: https://api.prod-preview.openshift.io/api/
       fabric8_jenkins_api_url: https://jenkins.api.prod-preview.openshift.io
