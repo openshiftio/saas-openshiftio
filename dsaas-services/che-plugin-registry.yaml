@@ -1,5 +1,5 @@
 services:
-- hash: 7d9b7aae961fb76642a8ea3e5e9c60d34604f9dd
+- hash: 016b2cded99c7b06e6ba456965fde4dcf0c00b5c
   hash_length: 7
   name: che-plugin-registry
   path: /openshift/che-plugin-registry.yml
