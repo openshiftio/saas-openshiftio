@@ -4,6 +4,7 @@ services:
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/openshiftio/tenant-log-indirector
   hash_length: 6
+  foo: bar
   environments:
   - name: production
     parameters:
@@ -11,4 +12,3 @@ services:
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-openshiftio-tenant-log-indirector
-
