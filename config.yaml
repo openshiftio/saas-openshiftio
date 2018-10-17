@@ -4,9 +4,19 @@ contexts:
     services_dir: dsaas-services
     templates_dir: dsaas-templates
   name: dsaas
+  environments:
+    production:
+      namespace: dsaas-production
+    staging:
+      namespace: dsaas-preview
 - data:
     output_dir: keycloak-processed
     services_dir: keycloak-services
     templates_dir: keycloak-templates
   name: keycloak
+  environments:
+    production:
+      namespace: dsaas-keycloak
+    staging:
+      namespace: dsaas-keycloak-preview
 current: dsaas
