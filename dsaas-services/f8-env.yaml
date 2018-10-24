@@ -1,0 +1,15 @@
+services:
+- hash: fead97763ad02a318ccce057cf84c0c1c1681480
+  name: fabric8-env
+  path: /openshift/f8env.app.yaml
+  url: https://github.com/fabric8-services/fabric8-env/
+  hash_length: 6
+  environments:
+  - name: staging
+    parameters:
+      REPLICAS: 2
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-env
+  - name: production
+    parameters:
+      REPLICAS: 4
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-env
