@@ -1,0 +1,15 @@
+services:
+- hash: 9c45cad9d3948bee5ce0bdaf255ebdb525955a78
+  name: fabric8-build
+  path: /openshift/f8build.app.yaml
+  url: https://github.com/fabric8-services/fabric8-build/
+  hash_length: 7
+  environments:
+  - name: staging
+    parameters:
+      REPLICAS: 2
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-build
+  - name: production
+    parameters:
+      REPLICAS: 4
+      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-build
