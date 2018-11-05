@@ -1,5 +1,5 @@
 services:
-- hash: 9c45cad9d3948bee5ce0bdaf255ebdb525955a78
+- hash: 78fcb38093119a315376ad85b729e4592cf4fa5e
   name: fabric8-build
   path: /openshift/f8build.app.yaml
   url: https://github.com/fabric8-services/fabric8-build/
