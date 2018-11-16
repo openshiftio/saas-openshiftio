@@ -3,7 +3,7 @@ services:
   name: build-tool-detector
   path: /openshift/build-tool-detector.app.yaml
   url: https://github.com/fabric8-services/build-tool-detector/
-  hash_length: 6
+  hash_length: 7
   environments:
   - name: staging
     parameters:
