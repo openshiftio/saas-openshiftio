@@ -1,5 +1,5 @@
 services:
-- hash: 25efccd28fd1c0ef8c4ce5fe9e708b25a363be9e
+- hash: 14a753c150573f7ad81110ab2c3ed03b6d9121d6
   name: build-tool-detector
   path: /openshift/build-tool-detector.app.yaml
   url: https://github.com/fabric8-services/build-tool-detector/
