@@ -1,5 +1,5 @@
 services:
-- hash: edd01596bbe1dabf0f66b6dc431b4b88b35692b8
+- hash: 53398f8a7723bb6afe314afd2443d638138f6481
   name: fabric8-cluster
   path: /openshift/f8cluster.app.yaml
   url: https://github.com/fabric8-services/fabric8-cluster/
