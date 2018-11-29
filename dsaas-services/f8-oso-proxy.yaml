@@ -1,5 +1,5 @@
 services:
-- hash: d7a1f6e65f7a453a5aba05ee6e16d7a13affce35
+- hash: 92c43f7d0ec10ceb3930839a5d815be66d30ca0f
   name: fabric8-oso-proxy
   path: /openshift/OpenShiftTemplate.yml
   url: https://github.com/fabric8-services/fabric8-oso-proxy/
