@@ -1,5 +1,5 @@
 services:
-- hash: 808e55f578c4edb5993425162be01cdf6036dba8
+- hash: bdaaaae9537b79bb6ee7630b56ed3e3505a65be6
   hash_length: 6
   name: fabric8-jenkins-idler
   path: /openshift/jenkins-idler.app.yaml
