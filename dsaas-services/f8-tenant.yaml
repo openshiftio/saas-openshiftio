@@ -8,6 +8,8 @@ services:
   - name: production
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-tenant
+      f8_automated_update_enabled: false
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-tenant
+      f8_automated_update_enabled: false
