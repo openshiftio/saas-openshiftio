@@ -11,7 +11,6 @@ services:
       k8s_api_server_base_path: '/'
       fabric8_feature_toggles_api_url: https://api.openshift.io/api/
       fabric8_jenkins_api_url: https://jenkins.api.openshift.io
-      fabric8_build_tool_detector_api_url: https://detector.api.openshift.io
       IMAGE: quay.io/openshiftio/rhel-fabric8-ui-fabric8-ui
   - name: staging
     parameters:
