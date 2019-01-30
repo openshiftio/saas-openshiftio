@@ -1,5 +1,5 @@
 services:
-- hash: cf9c94aa95923c85c2edcd206fbf16a9b61369c2
+- hash: e1df2527134e449cbe2afb55231101a8c8538488
   name: fabric8-ui-admin-console
   path: /openshift/fabric8-admin-console.app.yaml
   url: https://github.com/fabric8-ui/fabric8-admin-console/
@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-ui-admin-console
+      IMAGE: quay.io/openshiftio/rhel-fabric8-ui-admin-console
   - name: staging
     parameters:
-      IMAGE: quay.io/openshiftio/fabric8-ui-admin-console
+      IMAGE: quay.io/openshiftio/rhel-fabric8-ui-admin-console
