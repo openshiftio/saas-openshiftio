@@ -1,5 +1,5 @@
 services:
-- hash: 58abb71a555f98eaac263ded7fc9481530437bca
+- hash: 69b744e2838039e7913a2419f351ba26a66d2653
   name: fabric8-webhook
   path: /openshift/f8webhook.app.yaml
   url: https://github.com/fabric8-services/fabric8-webhook/
@@ -8,8 +8,4 @@ services:
   - name: staging
     parameters:
       REPLICAS: 2
-      IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-webhook
-  - name: production
-    parameters:
-      REPLICAS: 4
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-fabric8-webhook
