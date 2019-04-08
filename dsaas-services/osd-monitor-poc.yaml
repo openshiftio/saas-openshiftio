@@ -1,5 +1,5 @@
 services:
-- hash: 24de7a08610b4edddac85e4f507d20d5ce2d310d
+- hash: a06cd0f1a0d41d018901262f4fd4945e82e4b94f
   name: osd-monitor-poc
   path: /osd-monitor.yml
   url: https://github.com/redhat-developer/osd-monitor-poc/
