@@ -1,5 +1,5 @@
 services:
-- hash: 3470e2b20811f411d2072a32b321dee9bb509c76
+- hash: 3d1743e66d3c8d2ea8bd73ce28d5a51c70efe1de
   name: fabric8-auth
   path: /openshift/auth.app.yaml
   url: https://github.com/fabric8-services/fabric8-auth/
