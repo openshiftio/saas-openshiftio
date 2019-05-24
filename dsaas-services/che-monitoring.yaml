@@ -1,0 +1,6 @@
+services:
+- hash: None
+  hash_length: 7
+  name: rhche-monitoring
+  path: openshift/che-monitoring.yaml
+  url: https://github.com/redhat-developer/che-monitoring/
