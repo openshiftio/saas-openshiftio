@@ -4,3 +4,12 @@ services:
   name: rhche-monitoring
   path: openshift/che-monitoring.yaml
   url: https://github.com/redhat-developer/che-monitoring/
+  environments:
+  - name: staging
+    parameters:
+      IMAGE: prometheus/prometheus
+      IMAGE_TAG: latest
+  - name: production
+    parameters:
+      IMAGE: prometheus/prometheus
+      IMAGE_TAG: latest
