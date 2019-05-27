@@ -7,9 +7,9 @@ services:
   environments:
   - name: staging
     parameters:
-      IMAGE: prometheus/prometheus
+      IMAGE: prom/prometheus
       IMAGE_TAG: latest
   - name: production
     parameters:
-      IMAGE: prometheus/prometheus
+      IMAGE: prom/prometheus
       IMAGE_TAG: latest
