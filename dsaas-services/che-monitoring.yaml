@@ -9,7 +9,9 @@ services:
     parameters:
       IMAGE: prom/prometheus
       IMAGE_TAG: latest
+      PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-preview.svc:9090
   - name: production
     parameters:
       IMAGE: prom/prometheus
       IMAGE_TAG: latest
+      PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-production.svc:9090
