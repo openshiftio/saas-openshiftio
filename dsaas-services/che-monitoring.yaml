@@ -1,15 +1,17 @@
 services:
-- hash: f5dd7ff914c3ba6896f8c3b48095f5f97bcec2f4
+- hash: de9b77067de84e8bf8ba0eaf7abfb22b60ca62ff
   hash_length: 7
-  name: rhche-monitoring
-  path: openshift/che-monitoring.yaml
+  name: che-monitoring
+  path: /openshift/che-monitoring.yaml
   url: https://github.com/redhat-developer/che-monitoring/
   environments:
   - name: staging
     parameters:
       IMAGE: prom/prometheus
       IMAGE_TAG: latest
+      PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-preview.svc:9090
   - name: production
     parameters:
       IMAGE: prom/prometheus
       IMAGE_TAG: latest
+      PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-production.svc:9090
