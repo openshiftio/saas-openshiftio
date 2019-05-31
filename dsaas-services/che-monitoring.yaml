@@ -1,5 +1,5 @@
 services:
-- hash: 134d20493f115be2f7b623414f39d2dad6d85a6b
+- hash: 2c35962a9da14fc9676b9350d5c881a4f92b218c
   hash_length: 7
   name: rhche-monitoring
   path: openshift/che-monitoring.yaml
