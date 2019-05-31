@@ -2,7 +2,7 @@ services:
 - hash: 2c35962a9da14fc9676b9350d5c881a4f92b218c
   hash_length: 7
   name: rhche-monitoring
-  path: openshift/che-monitoring.yaml
+  path: /openshift/che-monitoring.yaml
   url: https://github.com/redhat-developer/che-monitoring/
   environments:
   - name: staging
