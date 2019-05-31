@@ -1,7 +1,7 @@
 services:
 - hash: de9b77067de84e8bf8ba0eaf7abfb22b60ca62ff
   hash_length: 7
-  name: rhche-monitoring
+  name: che-monitoring
   path: /openshift/che-monitoring.yaml
   url: https://github.com/redhat-developer/che-monitoring/
   environments:
