@@ -1,5 +1,5 @@
 services:
-- hash: 38bf392b2e2cd92470d495fde3ccaaa5376289e3
+- hash: 2e098f978f2b4ac89299b5fe6e53f533847268ec
   name: admin-console
   path: /openshift/admin-console.app.yaml
   url: https://github.com/fabric8-services/admin-console/
