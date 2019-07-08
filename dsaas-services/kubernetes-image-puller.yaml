@@ -9,8 +9,10 @@ services:
       IMAGE: quay.io/openshiftio/rhel-kubernetes-image-puller
       SERVICEACCOUNT_NAME: rhche
       SERVICE_ACCT_CREDENTIALS_SECRET: rhche
+      REPLICAS: 0
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-kubernetes-image-puller
       SERVICEACCOUNT_NAME: rhche
       SERVICE_ACCT_CREDENTIALS_SECRET: rhche
+      REPLICAS: 1
