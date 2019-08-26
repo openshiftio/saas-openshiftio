@@ -1,5 +1,5 @@
 services:
-- hash: a12afe3303f08648a444f04d537e45d6e00d76be
+- hash: f235d2a59d58dcdc17d4f2718a6dad1a8afb531d
   name: kubernetes-image-puller
   path: /openshift/app.yaml
   url: https://github.com/redhat-developer/kubernetes-image-puller
@@ -9,7 +9,7 @@ services:
       IMAGE: quay.io/openshiftio/rhel-kubernetes-image-puller
       SERVICEACCOUNT_NAME: rhche
       SERVICE_ACCT_CREDENTIALS_SECRET: rhche
-      REPLICAS: 0
+      REPLICAS: 1
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-kubernetes-image-puller
