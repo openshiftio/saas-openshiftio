@@ -8,10 +8,10 @@ services:
   - name: staging
     parameters:
       IMAGE: quay.io/prometheus/prometheus
-      IMAGE_TAG: latest
+      IMAGE_TAG: v2.13.0
       PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-preview.svc:9090
   - name: production
     parameters:
       IMAGE: quay.io/prometheus/prometheus
-      IMAGE_TAG: latest
+      IMAGE_TAG: v2.13.0
       PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-production.svc:9090
