@@ -1,5 +1,5 @@
 services:
-- hash: f314d2cffdc0b211b901d3a8c1b506eabd104197
+- hash: c722b1a1df4285581023df64be7d3524e90c691d
   hash_length: 7
   name: che-monitoring
   path: /openshift/che-monitoring.yaml
@@ -7,11 +7,11 @@ services:
   environments:
   - name: staging
     parameters:
-      IMAGE: prom/prometheus
-      IMAGE_TAG: latest
+      IMAGE: quay.io/prometheus/prometheus
+      IMAGE_TAG: v2.13.0
       PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-preview.svc:9090
   - name: production
     parameters:
-      IMAGE: prom/prometheus
-      IMAGE_TAG: latest
+      IMAGE: quay.io/prometheus/prometheus
+      IMAGE_TAG: v2.13.0
       PROMETHEUS_SVC_URL: http://rhche-prometheus.dsaas-production.svc:9090
