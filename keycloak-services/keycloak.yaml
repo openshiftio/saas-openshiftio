@@ -12,8 +12,8 @@ services:
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-keycloak-postgres
   - name: staging
     parameters:
-      REPLICAS: 3
-      OPERATING_MODE: clustered
+      REPLICAS: 1
+      OPERATING_MODE: standalone
       IMAGE: quay.io/openshiftio/rhel-fabric8-services-keycloak-postgres
   - name: appsec
     hash_length: 6
