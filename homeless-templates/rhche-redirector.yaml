@@ -17,13 +17,6 @@ objects:
     selector:
       run: rhche-redirector
     strategy:
-      resources:
-        requests:
-          cpu: 20m
-          memory: 20Mi
-        limits:
-          cpu: 200m
-          memory: 200Mi
       rollingParams:
         intervalSeconds: 1
         maxSurge: 25%
@@ -60,6 +53,13 @@ objects:
         restartPolicy: Always
         securityContext: {}
         terminationGracePeriodSeconds: 30
+        resources:
+          requests:
+            cpu: 20m
+            memory: 10Mi
+          limits:
+            cpu: 40m
+            memory: 40Mi
     test: false
     triggers:
     - type: ConfigChange
