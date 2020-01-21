@@ -49,17 +49,17 @@ objects:
           - containerPort: 8080
             protocol: TCP
           terminationMessagePath: /dev/termination-log
+          resources:
+            requests:
+              cpu: 20m
+              memory: 10Mi
+            limits:
+              cpu: 40m
+              memory: 40Mi
         dnsPolicy: ClusterFirst
         restartPolicy: Always
         securityContext: {}
         terminationGracePeriodSeconds: 30
-        resources:
-          requests:
-            cpu: 20m
-            memory: 10Mi
-          limits:
-            cpu: 40m
-            memory: 40Mi
     test: false
     triggers:
     - type: ConfigChange
