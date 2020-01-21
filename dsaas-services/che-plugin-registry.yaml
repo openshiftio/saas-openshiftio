@@ -1,8 +1,8 @@
 services:
-- hash: a5a6c37127ed0d45d540a67348c99f8f40155b35
+- hash: 818e3331ca4456cc81934dbe0cbc1f08177a5928
   hash_length: 7
   name: che-plugin-registry
-  path: /openshift/che-plugin-registry.yml
+  path: /deploy/openshift/che-plugin-registry.yml
   url: https://github.com/eclipse/che-plugin-registry
   environments:
   - name: staging
