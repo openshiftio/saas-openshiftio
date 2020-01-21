@@ -1,5 +1,5 @@
 services:
-- hash: 7634c189a9e2315a50d1594dfc11080ae024919b
+- hash: 4490ed570f069024afa49cd3563e980575b5c5d3
   hash_length: 7
   name: rh-che6
   path: /openshift/rh-che.app.yaml
