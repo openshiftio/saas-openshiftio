@@ -1,5 +1,5 @@
 services:
-- hash: 43348661452aadc3e885ec82f678eae990f7dbfc
+- hash: 17a7576ccb8fbdc4c47a77b3b98e40e4893c404f
   name: kubernetes-image-puller
   path: /openshift/app.yaml
   url: https://github.com/redhat-developer/kubernetes-image-puller
