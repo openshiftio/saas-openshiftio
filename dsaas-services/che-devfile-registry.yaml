@@ -1,5 +1,5 @@
 services:
-- hash: ac2f5737d6316169412daa4464adaaeda6f6dc36
+- hash: ef59c6a69d9cc43578785a95da78f25bd22b79c9
   hash_length: 7
   name: che-devfile-registry
   path: /deploy/openshift/che-devfile-registry.yaml
