@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: workspaces-openshift-com-redirector
+data:
+  redirector.destination: "https://workspaces.openshift.com"
+  redirector.type: permanent

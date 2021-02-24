@@ -1,0 +1,15 @@
+services:
+- hash: master
+  name: workspaces-openshift-com-redirector
+  path: homeless-templates/workspaces-openshift-com-redirector.yaml
+  url: https://github.com/openshiftio/saas-openshiftio/
+  hash_length: 6
+  environments:
+  - name: staging
+    parameters:
+      REPLICAS: 1
+      IMAGE: quay.io/openshiftio/rhel-base-nginx-redirector
+  - name: production
+    parameters:
+      REPLICAS: 3
+      IMAGE: quay.io/openshiftio/rhel-base-nginx-redirector
