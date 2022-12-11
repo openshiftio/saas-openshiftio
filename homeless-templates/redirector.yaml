@@ -60,6 +60,7 @@ objects:
         restartPolicy: Always
         securityContext: {}
         terminationGracePeriodSeconds: 30
+        serviceAccountName: dsaas-deploy
     test: false
     triggers:
     - type: ConfigChange
